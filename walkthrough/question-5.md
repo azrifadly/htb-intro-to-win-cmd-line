@@ -22,10 +22,11 @@ User4 has a lot of files and folders in their Documents folder. The flag can be 
 ![image alt](https://github.com/azrifadly/htb-intro-to-win-cmd-line/blob/main/screenshots/question5-solution.png)
   
 - Using powershell, `Get-ChildItem -Recurse *.txt | Where-Object {$_.Length -gt 0}`
-  <br>I am using the powershell version of dir for `Get-ChildItem`
+- Command Breakdown:
+  <br>`Get-ChildItem` is powershell version of `dir`
   <br>`-Recurse` to search through all sub directories
   <br>`flag.txt` = because i know that the flag has this naming convention
-  <br>now I pipe `|` the output to pass it to another command
+  <br>pipe `|` the output to pass it to another command
   <br>`where-object` works like a filter
   <br>`$_` represents for each file
   <br>`.length` is the property for getting the size of a file in bytes
