@@ -21,4 +21,6 @@ How many hidden files exist on user3's Desktop?
 
 ![image alt](https://github.com/azrifadly/htb-intro-to-win-cmd-line/blob/main/screenshots/question4-solution.png)
 
-- Command used to find hidden files:
+- Answer: `101`
+
+---
