@@ -38,20 +38,18 @@ The flag is the name of the user account.
 
 - This retrieves all events from the Security event log where the Event ID is 4625.
 - Event ID 4625 corresponds to failed logon attempts (logon failure events).
-
-2)
 - Using -FilterHashtable is efficient because it filters events on the system level rather than getting everything and filtering after.
 
-  `ForEach-Object { $_.Properties[5].Value }`
+2) `ForEach-Object { $_.Properties[5].Value }`
   
 - For each event retrieved, this accesses the 6th property (Properties is zero-indexed) of the event.
 - Specifically, .Properties[5].Value holds the TargetUserName (the username for whom the failed logon was attempted).
 - So this step extracts the username from each failed logon event.
 
-3)
-`Group-Object` : Groups all identical usernames together.
+3) `Group-Object`
+- Groups all identical usernames together.
 
-4)
-`Sort-Object Count -Descending` : Sorts the grouped usernames by the count of occurrences, in descending order. The user with the most failed login attempts appears at the top.
+4) `Sort-Object Count -Descending`
+- Sorts the grouped usernames by the count of occurrences, in descending order. The user with the most failed login attempts appears at the top.
 
 - Answer: `justalocaladmin`
