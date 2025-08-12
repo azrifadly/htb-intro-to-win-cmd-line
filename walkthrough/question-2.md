@@ -15,6 +15,7 @@ Access the host as user1 and read the contents of the file "flag.txt" located in
 ---
 ## Solution:
 -  use dir to find the child item of the file we are in
+  
 ![image alt](https://github.com/azrifadly/htb-intro-to-win-cmd-line/blob/4c6b73b7a45ae41c49abc4c8187e1515e4b98203/screenshots/question2-solution.png)
 
 -  `cd desktop` to get into .\Desktop
@@ -22,7 +23,6 @@ Access the host as user1 and read the contents of the file "flag.txt" located in
 -  `type flag.txt` displays contents of a file
 -  Answer: Nice and Easy!
 
----
 ![image alt](https://github.com/azrifadly/htb-intro-to-win-cmd-line/blob/4c6b73b7a45ae41c49abc4c8187e1515e4b98203/screenshots/question2-solution1.png)
 
 ---
