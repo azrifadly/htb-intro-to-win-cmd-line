@@ -17,7 +17,7 @@ Access the host as user1 and read the contents of the file "flag.txt" located in
 -  use dir to find the contents of the file we are in
 -  cd desktop to get into .\Desktop
 -  use dir again to find the contents inside Desktop
--  'type flag.txt'
+-  `type flag.txt`
 -  Answer: Nice and Easy!
 
 ![image alt](https://github.com/azrifadly/htb-intro-to-win-cmd-line/blob/1152d77a5952def2f8dd171089697fdaf1611d03/screenshots/question1-solution.png)
