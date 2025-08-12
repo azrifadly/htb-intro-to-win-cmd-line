@@ -16,7 +16,7 @@ Use the `tasklist` command to print running processes and then sort them in **re
 ---
 ## Solution:
 - Run `tasklist` and pipe it into `sort` with the `/R` flag to reverse the order:
-<br>
+
   ```powershell
   tasklist | sort /R
   
