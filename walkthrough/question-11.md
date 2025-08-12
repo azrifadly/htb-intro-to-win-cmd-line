@@ -37,7 +37,7 @@ The flag is the name of the user account.
 1)
   ```powershell
   Get-WinEvent -FilterHashtable @{LogName='Security'; Id=4625}
-
+  
 - This retrieves all events from the Security event log where the Event ID is 4625.
 - Event ID 4625 corresponds to failed logon attempts (logon failure events).
 
@@ -46,7 +46,7 @@ The flag is the name of the user account.
 
   ```powershell
   ForEach-Object { $_.Properties[5].Value }
-
+  
 - For each event retrieved, this accesses the 6th property (Properties is zero-indexed) of the event.
 - Specifically, .Properties[5].Value holds the TargetUserName (the username for whom the failed logon was attempted).
 - So this step extracts the username from each failed logon event.
