@@ -27,6 +27,6 @@ Use the `tasklist` command to print running processes and then sort them in **re
 - Run `tasklist` and pipe it into `findstr "vm"` to find string that begins with vm then pipe it again into `sort` with the `/R` flag to reverse the order:
 
   ```powershell
-  tasklist | findstr "vm" sort /R
+  tasklist | findstr "vm" | sort /R
 
 ![image alt](https://github.com/azrifadly/htb-intro-to-win-cmd-line/blob/main/screenshots/question10-solution1.png)
