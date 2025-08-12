@@ -30,7 +30,7 @@ User4 has a lot of files and folders in their Documents folder. The flag can be 
   <br>`where-object` works like a filter
   <br>`$_` represents for each file
   <br>`.length` is the property for getting the size of a file in bytes
-  <br>`-gt 0` is just greater than zero
+  <br>`-gt 0` is greater than zero
   
 - `cd C:\Users\user4\Documents\3\4` Change to the given directory where the flag.txt resides
 - `cat flag.txt` show contents of the flag.txt
