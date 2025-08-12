@@ -1,6 +1,6 @@
 # Question 1 – SSH Banner Flag
 
-## Question:
+## Question
 **Description:**  
 The flag will print in the banner upon successful login on the host via SSH.
 
