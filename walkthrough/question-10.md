@@ -24,7 +24,8 @@ Use the `tasklist` command to print running processes and then sort them in **re
 
 **OR**
 
-- Run `tasklist` and pipe it into `findstr "vm"` to find string that begins with vm then pipe it again into `sort` with the `/R` flag to reverse the order:  
+- Run `tasklist` and pipe it into `findstr "vm"` to find string that begins with vm then pipe it again into `sort` with the `/R` flag to reverse the order:
+
   ```powershell
   tasklist | findstr "vm" sort /R
 
