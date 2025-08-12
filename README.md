@@ -1,6 +1,5 @@
-# htb-intro-to-win-cmd-line
-Skill Assessment for Intro To Windows Command Line
 # Windows Host Credential Hunting – Lab Scenario
+Skill Assessment for Intro To Windows Command Line
 
 ## Scenario
 During a penetration test with our team, we were instructed to collect some information for a **non-critical Windows host**.  
