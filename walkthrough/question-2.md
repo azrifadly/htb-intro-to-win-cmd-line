@@ -10,9 +10,6 @@ Access the host as user1 and read the contents of the file "flag.txt" located in
 - Read the contents of flag.txt
 - Record the flag found in the file
 
-### Question:
----
-
 ![image alt](https://github.com/azrifadly/htb-intro-to-win-cmd-line/blob/50bb1cf9b8b4d9ae0a35d133ba3efddb8f8654d8/screenshots/question2-screenshot.png)
 
 ---
