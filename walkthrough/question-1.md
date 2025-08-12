@@ -20,10 +20,11 @@ The flag will print in the banner upon successful login on the host via SSH.
 
 ## Solution:
 -  Connect via SSH
--  ssh username@target-ip
+-  ssh user0@10.129.81.40
+-  Answer: D0wn_the_rabbit_H0!3
 
 ---
 
-![image alt]()
+![image alt](https://github.com/azrifadly/htb-intro-to-win-cmd-line/blob/1152d77a5952def2f8dd171089697fdaf1611d03/screenshots/question1-solution.png)
 
 ---
