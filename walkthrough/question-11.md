@@ -35,9 +35,9 @@ The flag is the name of the user account.
 - Command Breakdown:
 
 1)
-  ```markdown
+  ```powershell
   Get-WinEvent -FilterHashtable @{LogName='Security'; Id=4625}
-  
+  ```markdown
 - This retrieves all events from the Security event log where the Event ID is 4625.
 - Event ID 4625 corresponds to failed logon attempts (logon failure events).
 
