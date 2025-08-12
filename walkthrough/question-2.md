@@ -13,6 +13,6 @@ Access the host as user1 and read the contents of the file "flag.txt" located in
 ### Question Screenshot:
 ---
 
-![image alt]()
+![image alt](https://github.com/azrifadly/htb-intro-to-win-cmd-line/blob/50bb1cf9b8b4d9ae0a35d133ba3efddb8f8654d8/screenshots/question2-screenshot.png)
 
 ---
