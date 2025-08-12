@@ -22,14 +22,14 @@ User4 has a lot of files and folders in their Documents folder. The flag can be 
 ![image alt](https://github.com/azrifadly/htb-intro-to-win-cmd-line/blob/main/screenshots/question5-solution.png)
   
 - Using powershell, `Get-ChildItem -Recurse *.txt | Where-Object {$_.Length -gt 0}`
-  I am using the powerhsell version of dir for `Get-ChildItem`
-  `-Recurse` to search through all sub directories
-  `flag.txt` = because i know that the flag has this naming convention
-  now I pipe `|` the output to pass it to another command
-  `where-object` works like a filter
-  `$_` represents for each file
-  `.length` is the property for getting the size of a file in bytes
-  `-gt 0` is just greater than zero
+  <br>I am using the powershell version of dir for `Get-ChildItem`
+  <br>`-Recurse` to search through all sub directories
+  <br>`flag.txt` = because i know that the flag has this naming convention
+  <br>now I pipe `|` the output to pass it to another command
+  <br>`where-object` works like a filter
+  <br>`$_` represents for each file
+  <br>`.length` is the property for getting the size of a file in bytes
+  <br>`-gt 0` is just greater than zero
 - `cd C:\Users\user4\Documents\3\4` Change to the given directory where the flag.txt resides
 - `cat flag.txt` show contents of the flag.txt
 
