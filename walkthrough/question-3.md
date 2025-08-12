@@ -18,6 +18,6 @@ If you search and find the name of this host, you will find the flag for user2.
 
 ![image alt](https://github.com/azrifadly/htb-intro-to-win-cmd-line/blob/main/screenshots/question3-solution.png)
 
-- The hostname reveals: `ACADEMY-ICL11`
+- Answer: `ACADEMY-ICL11`
 
 ---
