@@ -19,3 +19,12 @@ For this level, you must successfully authenticate to the **Domain Controller** 
 - SSH into the Domain Controller:  
   ```powershell
   ssh user7@172.16.5.155
+- Use `Get-Module -ListAvailable` and found `Flag-Finder`
+
+![image alt](https://github.com/azrifadly/htb-intro-to-win-cmd-line/blob/main/screenshots/question8-solution.png)
+
+- Use `Get-Flag` as shown in the terminal "ExportedCommands"
+
+![image alt](https://github.com/azrifadly/htb-intro-to-win-cmd-line/blob/main/screenshots/question8-solution1.png)
+
+- Answer: `Modules_make_pwsh_run!`
