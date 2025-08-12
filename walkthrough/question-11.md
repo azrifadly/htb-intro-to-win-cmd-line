@@ -27,7 +27,7 @@ The flag is the name of the user account.
 
 - Let's pipe it down further with the "For" loop
 
-```powershell
+  ```powershell
   Get-WinEvent -FilterHashtable @{LogName='Security'; Id=4625} | ForEach-Object { $_.Properties[5].Value } | Group-Object | Sort-Object Count -Descending
 
 ![image alt](https://github.com/azrifadly/htb-intro-to-win-cmd-line/blob/main/screenshots/question11-solution1.png)
@@ -35,7 +35,7 @@ The flag is the name of the user account.
 - Command Breakdown:
 
 1)
-  ```powershell
+  ```markdown
   Get-WinEvent -FilterHashtable @{LogName='Security'; Id=4625}
   
 - This retrieves all events from the Security event log where the Event ID is 4625.
